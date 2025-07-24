@@ -1,0 +1,23 @@
+{
+  "name": "homework11",
+  "version": "1.0.0",
+  "description": "Naive ORM demo project",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "demo": "ts-node src/demo.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.16.3",
+    "sql-template-strings": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/pg": "^8.6.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
